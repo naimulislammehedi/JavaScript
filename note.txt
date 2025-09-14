@@ -1,0 +1,11 @@
+# Prerequirments 
+- html 
+- css 
+- basic setup (folder, internet browsing, softare installation, git and github)
+
+1 - introduction 
+- most popular programming language 
+- programming language of the web 
+
+
+
