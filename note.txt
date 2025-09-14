@@ -7,5 +7,15 @@
 - most popular programming language 
 - programming language of the web 
 
+# all web developers must learn 
+- html to define the content of web pages 
+- css to specify the layout of web pages 
+- javascript to program the behavior of web pages 
+    
+# javascript where to 
+- script 
+- head or body 
+- external javascript 
+
 
 
