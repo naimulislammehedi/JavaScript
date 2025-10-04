@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>37. Check if a year is a leap year.</title>
+</head>
+<body>
+    
+    <!-- 
+    The rules for a leap year are:
+
+    1) A year is a leap year if it is evenly divisible by 4 (year % 4 === 0).
+    
+    2) EXCEPT if it is also evenly divisible by 100 (year % 100 === 0), then it is NOT a leap year (e.g., 1900, 2100).
+
+    3) UNLESS it is also evenly divisible by 400 (year % 400 === 0), then it IS a leap year (e.g., 2000, 2400).
+
+    We can translate these three rules into one concise conditional statement using the Logical AND (&&) and Logical OR (||) operators.
+    -->
+
+    <script>
+        let year = 2025; 
+
+        if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+            console.log(`'${year}' is a leap year.`)
+        } else {
+            console.log(`'${year}' NOT a leap year.`)
+        }
+
+    </script>
+</body>
+</html>
