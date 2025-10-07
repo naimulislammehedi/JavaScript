@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>39. Check if a character is a vowel or consonant.</title>
+  </head>
+  <body>
+
+    <script>
+      // 1. declare the character variable
+      let char = "B";
+
+      // 2. convert to lowercase
+      let lowerChar = char.toLowerCase();
+
+      // 3. build condition
+      if (lowerChar >= "a" && lowerChar <= "z") {
+        if (
+          lowerChar === "a" ||
+          lowerChar === "e" ||
+          lowerChar === "i" ||
+          lowerChar === "o" ||
+          lowerChar === "u"
+        ) {
+          console.log(`Characer ${char} is a vowel`);
+        } else {
+          console.log(`Character ${char} is a consonant`);
+        }
+      } else {
+        console.log(`${char} is not a valid character.`);
+      }
+    </script>
+  </body>
+</html>
+
+
